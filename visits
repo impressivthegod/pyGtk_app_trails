@@ -1,0 +1,17 @@
+from modulo_AP import Visitor
+
+class Visits:
+    def __init__(self,file_path):
+        self.file_path = file_path
+        self.visit = {}
+        f = open(file_path, 'r')
+
+    def create_visitor(self, trail:str, visitor:list):
+        v = Visitor()
+        self.visit[trail] = [v]
+        f = open(file_path, 'a')
+        f.close()
+
+
+    def get_visit(self):
+        return self.visit
