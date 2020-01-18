@@ -1,0 +1,80 @@
+class Visits:
+    def __init__(self, ,visitor):
+        self.file_path = file_path
+        self.visit = {}
+        f = open(file_path, 'r')
+
+    def create_visitor(self, trail:str, visitor:list):
+        pass
+
+    def remove_visitor(self, trail:str, visitor:list):
+        pass
+
+
+    def file_path(self):
+        return self.file_path
+
+    def visit(self):
+        return self.visit
+
+class Visitor:
+    def __init__(self,
+                 name='',
+                 age='',
+                 country='',
+                 gender='',
+                 visit_date='',
+                 rating=''):
+        self.name = name
+        self.age = age
+        self.country = country
+        self.gender = gender
+        self.visit_date = visit_date
+        self.rating = rating
+
+    def get_name(self):
+        return self.name
+
+
+    def get_age(self):
+        return self.age
+
+
+    def get_country(self):
+        return self.country
+
+
+    def get_gender(self):
+        return self.gender
+
+
+    def get_visit_date(self):
+        return self.visit_date
+
+
+    def get_rating(self):
+        return self.rating
+
+
+    def set_name(self, n):
+        self.name = n
+
+
+    def set_age(self, age):
+        self.age = age
+
+
+    def set_country(self, c):
+        self.country = c
+
+
+    def set_gender(self, g):
+        self.gender = g
+
+
+    def set_visit_date(self, vd):
+        self.visit_date = vd
+
+
+    def set_rating(self, r):
+        self.rating = r
